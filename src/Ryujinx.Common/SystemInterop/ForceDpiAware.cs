@@ -28,7 +28,7 @@ namespace Ryujinx.Common.SystemInterop
         [LibraryImport(X11LibraryName)]
         private static partial int XCloseDisplay(nint display);
 
-        private const double StandardDpiScale = 168.0;
+        private const double StandardDpiScale = 96.0;
         private const double MaxScaleFactor = 2.0;
 
         /// <summary>
